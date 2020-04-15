@@ -1,0 +1,9 @@
+n=[1,2,3,4,5,6,7,8,9,10]
+result=1
+counter=1
+
+for each in n:
+	result=result*counter
+	counter=counter+1
+
+print("The product of first 10 natural numbers= ",result)
